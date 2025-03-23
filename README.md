@@ -62,3 +62,11 @@ The system implements a movie rental service where:
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/brivaro/MovieRentalSystem.git
+
+2. **Build the Project:** Navigate to the project directory and run:
+   ```bash
+   mvn clean install
+
+3. **Run Tests:** Execute the test suite using Maven or VS plugins:
+   ```bash
+   mvn test
