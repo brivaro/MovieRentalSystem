@@ -25,26 +25,26 @@ The system implements a movie rental service where:
 ## 🔧 Key Components
 
 - **PriceStrategy Interface**  
-  Defines a contract for calculating rental charges (see [PriceStrategy.java](&#8203;:contentReference[oaicite:0]{index=0}&#8203;:contentReference[oaicite:1]{index=1})).
+  Defines a contract for calculating rental charges (see [PriceStrategy.java]).
 
 - **RegularPrice, NewReleasePrice, ChildrensPrice**  
-  Concrete implementations of the pricing strategy for different movie types (see [RegularPrice.java](&#8203;:contentReference[oaicite:2]{index=2}&#8203;:contentReference[oaicite:3]{index=3}), [NewReleasePrice.java](&#8203;:contentReference[oaicite:4]{index=4}&#8203;:contentReference[oaicite:5]{index=5}), and [ChildrensPrice.java](&#8203;:contentReference[oaicite:6]{index=6}&#8203;:contentReference[oaicite:7]{index=7})).
+  Concrete implementations of the pricing strategy for different movie types (see [RegularPrice.java], [NewReleasePrice.java], and [ChildrensPrice.java]).
 
 - **Movie**  
-  Encapsulates movie details and delegates charge computation to its associated pricing strategy (see [Movie.java](&#8203;:contentReference[oaicite:8]{index=8}&#8203;:contentReference[oaicite:9]{index=9})).
+  Encapsulates movie details and delegates charge computation to its associated pricing strategy (see [Movie.java]).
 
 - **Rental**  
-  Associates a movie with its rental duration, calculating both the charge and the frequent renter points (see [Rental.java](&#8203;:contentReference[oaicite:10]{index=10}&#8203;:contentReference[oaicite:11]{index=11})).
+  Associates a movie with its rental duration, calculating both the charge and the frequent renter points (see [Rental.java]).
 
 - **Customer**  
-  Manages a collection of rentals and produces a final rental statement, summarizing charges and points earned (see [Customer.java](&#8203;:contentReference[oaicite:12]{index=12}&#8203;:contentReference[oaicite:13]{index=13})).
+  Manages a collection of rentals and produces a final rental statement, summarizing charges and points earned (see [Customer.java]).
 
 - **RentalTest**  
   A comprehensive JUnit test class that validates:
   - Movie titles and charge calculations.
   - Customer rental aggregation.
   - Correct computation of frequent renter points.
-  - Statement generation matching expected output (see [RentalTest.java](&#8203;:contentReference[oaicite:14]{index=14}&#8203;:contentReference[oaicite:15]{index=15})).
+  - Statement generation matching expected output (see [RentalTest.java]).
 
 ---
 
