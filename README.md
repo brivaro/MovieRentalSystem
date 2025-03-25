@@ -1,6 +1,8 @@
 <div align="center">
-<h1>🎬 Movie Rental System in JAVA using JUnit & Mockito for Testing</h1>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/junit/junit-original.svg" height="80" alt="junit logo" />
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Camera%20with%20Flash.png" alt="Camera with Flash" width="100" height="100" />
+
+<h1>🎬 Movie Rental System in JAVA using JUnit & Mockito for Testing</h1>
 </div>
 
 ---
